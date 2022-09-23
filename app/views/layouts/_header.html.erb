@@ -1,0 +1,25 @@
+<header class="bg-gray-100  dark:bg-gray-900" >
+  <h1 class="text-center mt-10 text-4xl ">Project Warehouse</h1>
+
+
+
+
+<nav class="bg-white shadow mt-3 dark:bg-gray-900">
+    <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+
+        <%= link_to "All Work" , projects_path, class: "border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8 " %>
+        <%= link_to "React" , filtered_events_path(:React), class: "border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8" %>
+        <%= link_to "Ruby" , filtered_events_path(:Ruby), class: "border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8" %>
+        <%= link_to "Vue" , filtered_events_path(:Vue), class: "border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8" %>
+        <%= link_to "Go" , filtered_events_path(:Go), class: "border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8" %>
+
+
+        <button>
+            <a href="#" class="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-8">Portfolio</a>
+        </button>
+
+
+
+    </div>
+</nav>
+</header>
